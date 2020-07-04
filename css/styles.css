@@ -84,7 +84,7 @@ body {
   color: var(--primary-white-color);
 }
 
-.hero-btn {
+.btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -95,8 +95,6 @@ body {
   background: var(--accent-color);
   border-color: var(--accent-color);
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 /* преимущества */
@@ -145,6 +143,9 @@ body {
 }
 
 /* футер */
+.footer {
+  background-color: var(--footer-background-color);
+}
 .logo .logo-studio {
   color: #ffffff;
 }
