@@ -17,6 +17,7 @@ body {
   font-family: var(--main-font);
   font-size: 14px;
   font-style: normal;
+  color: var(--primary-text-color);
 }
 
 .link {
@@ -32,7 +33,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(text-white-color);
+  color: var(--primary-title-color);
 }
 
 /* хедер */
@@ -49,7 +50,7 @@ body {
   color: var(--accent-color);
 }
 
-.navgation-list-item-link {
+.navigation-list-item-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -67,10 +68,10 @@ body {
   color: var(--primary-text-color);
 }
 
-.navgation-list-item-link:hover,
+.navigation-list-item-link:hover,
 .address-list-item-link:hover,
 .address-list-item-link:focus,
-.navgation-list-item-link:focus {
+.navigation-list-item-link:focus {
   color: var(--accent-color);
 }
 
@@ -94,8 +95,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   background: var(--accent-color);
-  border-color: var(--accent-color);
-  background: #2196f3;
+  border: none;
 }
 
 /* преимущества */
@@ -111,13 +111,11 @@ body {
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 
 /* Чем мы занимаемся */
 .what-we-do-img-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
@@ -126,21 +124,16 @@ body {
 }
 
 /* Наша команда */
-.our-team-list-item-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primary-title-color);
-}
-
+.our-team-list-item-title,
 .our-team-list-item-profession {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+}
+.our-team-list-item-title {
+  font-weight: 500;
+  color: var(--primary-title-color);
 }
 
 /* футер */
@@ -186,7 +179,7 @@ body {
   color: var(--primary-title-color);
 }
 
-.project-mane {
+.project-name {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
