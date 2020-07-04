@@ -12,6 +12,7 @@
 }
 body {
   /* background-color: var(--main-background); */
+  /* фон для проверки */
   background-color: rgb(212, 212, 212);
   font-family: var(--main-font);
   font-size: 14px;
@@ -136,7 +137,7 @@ body {
 
 .our-team-list-item-profession {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -175,15 +176,7 @@ body {
   color: var(--text-white-color);
 }
 
-/* портфолуо */
-
-.project-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--primary-title-color);
-}
+/* портфолио */
 
 .project-title {
   font-weight: 700;
