@@ -26,6 +26,7 @@ body {
 }
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 
 .list {
@@ -53,7 +54,6 @@ body {
 }
 
 .navigation-list-item-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -62,7 +62,6 @@ body {
 }
 
 .address-list-item-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
