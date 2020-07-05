@@ -9,6 +9,7 @@
   --secondary-white-color: #f5f4fa;
   --footer-background-color: #2f303a;
   --main-background: #ffffff;
+  --button-backgroung: #f5f4fa;
 }
 body {
   /* background-color: var(--main-background); */
@@ -187,4 +188,20 @@ body {
   font-size: 18px;
   line-height: 1.56;
   color: var(--text-white-color);
+}
+
+.our-works-filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+  background-color: var(--button-backgroung);
+  border: none;
+}
+
+.our-works-filter-button:hover,
+.our-works-filter-button:focus {
+  background: var(--accent-color);
 }
