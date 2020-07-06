@@ -12,9 +12,9 @@
   --button-backgroung: #f5f4fa;
 }
 body {
-  /* background-color: var(--main-background); */
+  background-color: var(--main-background);
   /* фон для проверки */
-  background-color: rgb(212, 212, 212);
+  /* background-color: rgb(212, 212, 212); */
   font-family: var(--main-font);
   font-size: 14px;
   font-style: normal;
