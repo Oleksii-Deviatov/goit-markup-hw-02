@@ -204,4 +204,5 @@ body {
 .our-works-filter-button:hover,
 .our-works-filter-button:focus {
   background: var(--accent-color);
+  color: var(--text-white-color);
 }
