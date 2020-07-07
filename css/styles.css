@@ -13,7 +13,7 @@
 }
 body {
   background-color: var(--main-background);
-  /* фон для проверки */
+  /* фон для  проверки */
   /* background-color: rgb(212, 212, 212); */
   font-family: var(--main-font);
   font-size: 14px;
