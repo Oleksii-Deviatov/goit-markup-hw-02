@@ -22,6 +22,7 @@ body {
   color: var(--primary-text-color);
 }
 
+/* утилиты */
 .hidden {
   display: none;
 }
@@ -33,6 +34,7 @@ body {
 .list {
   list-style: none;
 }
+
 .title {
   font-weight: 700;
   font-size: 36px;
